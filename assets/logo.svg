@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b0f12"/>
+  <!-- Terminal frame -->
+  <rect x="18" y="18" width="220" height="220" fill="none" stroke="#c8d3d8" stroke-width="1" opacity="0.25"/>
+  <!-- Terminal header dots -->
+  <circle cx="30" cy="30" r="2.5" fill="#c8d3d8" opacity="0.35"/>
+  <circle cx="40" cy="30" r="2.5" fill="#c8d3d8" opacity="0.25"/>
+  <circle cx="50" cy="30" r="2.5" fill="#c8d3d8" opacity="0.15"/>
+  <!-- Key shaft running diagonally, off-center -->
+  <g transform="translate(128 140) rotate(-38) translate(-128 -140)">
+    <!-- Shaft body -->
+    <path d="M108 84 L118 84 L118 196 L108 196 Z" fill="#c8d3d8"/>
+    <!-- Shaft highlight edge -->
+    <path d="M114 84 L118 84 L118 196 L114 196 Z" fill="#3ddc84" opacity="0.7"/>
+    <!-- Bow (key head) - hexagonal ring -->
+    <path d="M113 70 L96 60 L78 70 L78 90 L96 100 L113 90 Z" fill="none" stroke="#c8d3d8" stroke-width="5"/>
+    <path d="M113 70 L96 60 L78 70 L78 90 L96 100 L113 90 Z" fill="none" stroke="#3ddc84" stroke-width="1.5" opacity="0.6"/>
+    <!-- Inner aperture blade motif inside the bow -->
+    <path d="M96 67 L104 74 L100 84 L88 84 L84 74 Z" fill="#3ddc84" opacity="0.85"/>
+    <path d="M96 67 L104 74 L100 84 L88 84 L84 74 Z" fill="none" stroke="#0b0f12" stroke-width="1"/>
+    <!-- Aperture blade overlap line -->
+    <line x1="96" y1="67" x2="88" y2="84" stroke="#0b0f12" stroke-width="1.2"/>
+    <line x1="104" y1="74" x2="84" y2="74" stroke="#0b0f12" stroke-width="1.2"/>
+    <!-- Key bit / teeth - stylized aperture blades -->
+    <path d="M118 170 L138 164 L140 172 L120 178 Z" fill="#c8d3d8"/>
+    <path d="M118 178 L142 172 L144 180 L120 186 Z" fill="#c8d3d8"/>
+    <path d="M118 186 L146 180 L148 188 L120 194 Z" fill="#c8d3d8"/>
+    <!-- Bit tips glowing -->
+    <path d="M138 164 L140 172 L120 178" fill="none" stroke="#f2a33c" stroke-width="1.5" opacity="0.8"/>
+    <path d="M142 172 L144 180 L120 186" fill="none" stroke="#f2a33c" stroke-width="1.5" opacity="0.8"/>
+    <path d="M146 180 L148 188 L120 194" fill="none" stroke="#f2a33c" stroke-width="1.5" opacity="0.8"/>
+    <!-- Glow dots at bit tips -->
+    <circle cx="139" cy="164" r="2" fill="#f2a33c"/>
+    <circle cx="143" cy="172" r="2" fill="#f2a33c"/>
+    <circle cx="147" cy="180" r="2" fill="#f2a33c"/>
+  </g>
+  <!-- Terminal cursor block suggesting activation -->
+  <rect x="168" y="196" width="14" height="18" fill="#3ddc84" opacity="0.9"/>
+  <rect x="168" y="196" width="14" height="18" fill="none" stroke="#c8d3d8" stroke-width="1" opacity="0.4"/>
+  <!-- Small text line suggesting command -->
+  <line x1="30" y1="202" x2="72" y2="202" stroke="#c8d3d8" stroke-width="2" opacity="0.3"/>
+  <line x1="30" y1="210" x2="96" y2="210" stroke="#c8d3d8" stroke-width="2" opacity="0.2"/>
+  <line x1="30" y1="218" x2="60" y2="218" stroke="#c8d3d8" stroke-width="2" opacity="0.15"/>
+  <!-- Green prompt chevron -->
+  <polyline points="30,194 38,198 30,202" fill="none" stroke="#3ddc84" stroke-width="2" opacity="0.7"/>
+</svg>
