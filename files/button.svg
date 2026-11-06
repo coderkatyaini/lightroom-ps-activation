@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="80" role="img" aria-label="Run PowerShell Setup">
+  <defs>
+    <linearGradient id="psb812024" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <linearGradient id="psb812024h" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="80" rx="16" fill="url(#psb812024)"/>
+  <rect x="1" y="1" width="498" height="78" rx="15" fill="none" stroke="#f59e0b" stroke-opacity="0.45"/>
+  <rect x="1" y="1" width="498" height="38" rx="15" fill="url(#psb812024h)"/>
+  <text x="250.0" y="48.4" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">Run PowerShell Setup</text>
+</svg>
